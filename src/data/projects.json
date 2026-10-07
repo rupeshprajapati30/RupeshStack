@@ -1,0 +1,29 @@
+[
+  {
+    "title": "KuyeLs / Fixbien",
+    "category": "SaaS / API",
+    "description": "Multi-tenant SaaS platform with ASP.NET Core, Dapper, Stripe and external APIs.",
+    "image": "/images/projects/kuyels.svg",
+    "technologies": [".NET", "SQL Server", "Stripe", "AWS"],
+    "githubUrl": "#",
+    "liveUrl": "#"
+  },
+  {
+    "title": "TeeUp",
+    "category": "Golf Platform",
+    "description": "Golf booking, scorecards and subscription management platform.",
+    "image": "/images/projects/teeup.svg",
+    "technologies": [".NET", "SQL Server", "Stripe"],
+    "githubUrl": "#",
+    "liveUrl": "#"
+  },
+  {
+    "title": "NLP Platform",
+    "category": "AI / WebSocket",
+    "description": "AI-powered text processing platform using WebSocket APIs and external integrations.",
+    "image": "/images/projects/nlp.svg",
+    "technologies": [".NET", "WebSocket", "AWS"],
+    "githubUrl": "#",
+    "liveUrl": "#"
+  }
+]

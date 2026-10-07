@@ -1,0 +1,81 @@
+{
+  "name": "Rupesh Kumar Prajapati",
+  "shortName": "RK",
+  "greeting": "Hi, I'm",
+  "title": "Full Stack Developer / .NET Expert",
+  "description": "I build secure, scalable and high-performance web applications, APIs and SaaS platforms.",
+  "location": "India",
+  "email": "your-email@example.com",
+  "profileImage": "/images/profile.svg",
+  "resumeUrl": "/resume.pdf",
+  "availability": {
+    "available": true,
+    "label": "Available for new projects"
+  },
+  "heroTechnologies": ["C#", ".NET", "ASP.NET Core", "SQL Server", "Stripe", "AWS", "Docker"],
+  "socialLinks": {
+    "github": "#",
+    "linkedin": "#"
+  },
+  "terminal": [
+    { "command": "whoami", "output": ["Full Stack Developer"] },
+    {
+      "command": "skills",
+      "output": ["C#, .NET, ASP.NET Core", "SQL Server, APIs, Stripe", "AWS, Docker"]
+    },
+    { "command": "status", "output": ["Available"], "status": "success" }
+  ],
+  "about": {
+    "headline": "Engineering reliable software for products that need to scale.",
+    "paragraphs": [
+      "I'm a full stack developer specialising in the Microsoft .NET ecosystem. I design and build back-end systems, REST APIs and multi-tenant SaaS platforms that stay fast and maintainable as they grow.",
+      "My day-to-day spans clean architecture in ASP.NET Core, performant data access with SQL Server and Dapper, subscription billing with Stripe, and cloud deployments on AWS with Docker.",
+      "I care about secure defaults, readable code and shipping features that make a measurable difference for the business and its users."
+    ],
+    "stats": [
+      { "value": "5+", "label": "Years of experience" },
+      { "value": "30+", "label": "Projects delivered" },
+      { "value": "10+", "label": "Third-party integrations" },
+      { "value": "99.9%", "label": "Uptime mindset" }
+    ],
+    "highlights": [
+      {
+        "title": "Scalable Architecture",
+        "description": "Multi-tenant SaaS, layered services and clean domain boundaries.",
+        "icon": "layers"
+      },
+      {
+        "title": "Secure APIs",
+        "description": "Authentication, authorisation and hardened REST endpoints.",
+        "icon": "shield"
+      },
+      {
+        "title": "Payments & Billing",
+        "description": "Stripe subscriptions, webhooks and invoicing workflows.",
+        "icon": "stripe"
+      },
+      {
+        "title": "Cloud Delivery",
+        "description": "Containerised deployments and automation on AWS.",
+        "icon": "aws"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Have a project in mind?",
+    "message": "Whether you need a new SaaS platform, a robust API or help scaling an existing .NET application, I'd love to hear about it. Drop me a message and I'll get back to you within 24 hours.",
+    "ctaLabel": "Say Hello"
+  },
+  "keywords": [
+    "Full Stack Developer",
+    ".NET Developer",
+    "ASP.NET Core",
+    "C#",
+    "SQL Server",
+    "SaaS",
+    "API Development",
+    "Stripe",
+    "AWS",
+    "Portfolio"
+  ]
+}

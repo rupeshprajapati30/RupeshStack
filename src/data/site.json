@@ -1,0 +1,57 @@
+{
+  "navigation": [
+    { "label": "Home", "href": "#home" },
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "heroCtas": {
+    "primary": "View Projects",
+    "secondary": "Contact Me",
+    "resume": "Resume"
+  },
+  "sections": {
+    "about": {
+      "eyebrow": "about-me",
+      "title": "About Me",
+      "description": "A quick look at who I am and how I work."
+    },
+    "skills": {
+      "eyebrow": "tech-stack",
+      "title": "Skills & Tech Stack",
+      "description": "The languages, frameworks and platforms I use to ship production software."
+    },
+    "projects": {
+      "eyebrow": "featured-projects",
+      "title": "Featured Projects",
+      "description": "A selection of products and platforms I've designed and built."
+    },
+    "experience": {
+      "eyebrow": "experience",
+      "title": "Professional Experience",
+      "description": "Where I've worked and what I've delivered along the way."
+    },
+    "contact": {
+      "eyebrow": "contact",
+      "title": "Let's Work Together",
+      "description": "Open to freelance projects, contracts and full-time opportunities."
+    }
+  },
+  "labels": {
+    "sourceCode": "Source code",
+    "liveDemo": "Live demo",
+    "current": "Current",
+    "email": "Email",
+    "location": "Location",
+    "backToTop": "Back to top",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "terminalTitle": "developer@portfolio: ~"
+  },
+  "footer": {
+    "tagline": "Building secure, scalable software — one commit at a time.",
+    "builtWith": "Built with Next.js, TypeScript & Tailwind CSS"
+  }
+}

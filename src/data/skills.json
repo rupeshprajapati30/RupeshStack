@@ -1,0 +1,17 @@
+[
+  { "name": "C#", "icon": "csharp", "category": "Backend" },
+  { "name": ".NET", "icon": "dotnet", "category": "Backend" },
+  { "name": "ASP.NET Core", "icon": "aspnet", "category": "Backend" },
+  { "name": "Dapper", "icon": "database", "category": "Backend" },
+  { "name": "REST APIs", "icon": "api", "category": "Backend" },
+  { "name": "WebSockets", "icon": "websocket", "category": "Backend" },
+  { "name": "SQL Server", "icon": "sqlserver", "category": "Database" },
+  { "name": "Entity Framework", "icon": "database", "category": "Database" },
+  { "name": "Stored Procedures", "icon": "code", "category": "Database" },
+  { "name": "Stripe", "icon": "stripe", "category": "Payment" },
+  { "name": "Webhooks", "icon": "webhook", "category": "Payment" },
+  { "name": "AWS", "icon": "aws", "category": "Cloud" },
+  { "name": "Docker", "icon": "docker", "category": "DevOps" },
+  { "name": "Git", "icon": "git", "category": "DevOps" },
+  { "name": "CI/CD", "icon": "workflow", "category": "DevOps" }
+]

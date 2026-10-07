@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="TeeUp preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07101e"/>
+      <stop offset="1" stop-color="#0d1a30"/>
+    </linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="g" cx="0.85" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <rect x="60" y="60" width="680" height="400" rx="18" fill="#0B1424" stroke="#16304D"/>
+  <rect x="60" y="60" width="680" height="44" rx="18" fill="#0f1c33"/>
+  <circle cx="90" cy="82" r="6" fill="#7C3AED"/><circle cx="110" cy="82" r="6" fill="#22D3EE"/><circle cx="130" cy="82" r="6" fill="#22C55E"/>
+  <rect x="80" y="124" width="150" height="316" rx="12" fill="#0f1c33"/>
+  <rect x="96" y="144" width="110" height="10" rx="5" fill="url(#a)"/>
+  <rect x="96" y="172" width="90" height="8" rx="4" fill="#16304D"/>
+  <rect x="96" y="194" width="100" height="8" rx="4" fill="#16304D"/>
+  <rect x="96" y="216" width="80" height="8" rx="4" fill="#16304D"/>
+  <rect x="250" y="124" width="150" height="80" rx="12" fill="#0f1c33" stroke="#16304D"/>
+  <rect x="420" y="124" width="150" height="80" rx="12" fill="#0f1c33" stroke="#16304D"/>
+  <rect x="590" y="124" width="130" height="80" rx="12" fill="#0f1c33" stroke="#16304D"/>
+  <rect x="266" y="144" width="60" height="8" rx="4" fill="#94A3B8" opacity="0.5"/>
+  <rect x="266" y="164" width="90" height="18" rx="5" fill="url(#a)"/>
+  <rect x="436" y="144" width="60" height="8" rx="4" fill="#94A3B8" opacity="0.5"/>
+  <rect x="436" y="164" width="70" height="18" rx="5" fill="url(#a)"/>
+  <rect x="606" y="144" width="50" height="8" rx="4" fill="#94A3B8" opacity="0.5"/>
+  <rect x="606" y="164" width="80" height="18" rx="5" fill="url(#a)"/>
+  <rect x="250" y="224" width="470" height="216" rx="12" fill="#0f1c33" stroke="#16304D"/>
+  <polyline points="270,410 330,370 390,385 450,320 510,340 570,280 630,300 700,250" fill="none" stroke="url(#a)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="270,410 330,370 390,385 450,320 510,340 570,280 630,300 700,250 700,425 270,425" fill="url(#a)" opacity="0.12"/>
+  <text x="270" y="256" font-family="ui-monospace, monospace" font-size="18" fill="#F8FAFC" opacity="0.9">bookings.this_week()</text>
+</svg>

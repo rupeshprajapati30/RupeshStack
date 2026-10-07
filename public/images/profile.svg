@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Profile placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1424"/>
+      <stop offset="1" stop-color="#111c33"/>
+    </linearGradient>
+    <linearGradient id="fg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.35" r="0.6">
+      <stop offset="0" stop-color="#00E5FF" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect width="400" height="400" fill="url(#glow)"/>
+  <g fill="none" stroke="#16304D" stroke-width="1">
+    <path d="M0 80H400M0 160H400M0 240H400M0 320H400M80 0V400M160 0V400M240 0V400M320 0V400"/>
+  </g>
+  <circle cx="200" cy="160" r="70" fill="url(#fg)" opacity="0.9"/>
+  <path d="M70 400c10-90 66-140 130-140s120 50 130 140z" fill="url(#fg)" opacity="0.9"/>
+  <text x="200" y="178" text-anchor="middle" font-family="ui-monospace, monospace" font-size="52" font-weight="700" fill="#050B14">&lt;/&gt;</text>
+</svg>

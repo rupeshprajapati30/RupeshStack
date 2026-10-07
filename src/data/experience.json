@@ -1,0 +1,41 @@
+[
+  {
+    "role": "Senior .NET Developer",
+    "company": "Your Current Company",
+    "location": "India",
+    "period": "2022 — Present",
+    "current": true,
+    "description": "Leading back-end development for multi-tenant SaaS products and API platforms used by international clients.",
+    "achievements": [
+      "Architected a multi-tenant SaaS platform on ASP.NET Core with Dapper and SQL Server.",
+      "Integrated Stripe subscriptions, webhooks and invoicing end to end.",
+      "Containerised services with Docker and deployed them to AWS."
+    ],
+    "technologies": ["ASP.NET Core", "Dapper", "SQL Server", "Stripe", "AWS", "Docker"]
+  },
+  {
+    "role": ".NET Developer",
+    "company": "Previous Company",
+    "location": "India",
+    "period": "2020 — 2022",
+    "description": "Built web applications and REST APIs for booking, scheduling and subscription-based products.",
+    "achievements": [
+      "Delivered a golf booking and scorecard platform with recurring billing.",
+      "Optimised slow SQL queries and stored procedures, cutting response times significantly.",
+      "Designed reusable API modules shared across multiple client projects."
+    ],
+    "technologies": ["C#", "ASP.NET MVC", "SQL Server", "REST APIs"]
+  },
+  {
+    "role": "Junior Software Developer",
+    "company": "First Company",
+    "location": "India",
+    "period": "2019 — 2020",
+    "description": "Started my career building and maintaining line-of-business applications in C# and SQL Server.",
+    "achievements": [
+      "Implemented features and bug fixes across several production applications.",
+      "Wrote integration code for third-party services and internal tools."
+    ],
+    "technologies": ["C#", ".NET Framework", "SQL Server", "JavaScript"]
+  }
+]
