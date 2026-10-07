@@ -13,34 +13,35 @@ export function Skills({ skills, copy }: SkillsProps) {
 
   return (
     <Section id="skills" copy={copy}>
-      <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <ul className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
         {groups.map(([category, items], index) => (
           <li
             key={category}
-            className="glass card-interactive rounded-2xl p-6"
+            className="glass card-interactive rounded-2xl p-5"
             data-reveal
             data-reveal-index={String(index % 3)}
           >
-            <div className="mb-5 flex items-center justify-between gap-3">
-              <h3 className="font-mono text-sm font-semibold uppercase tracking-widest text-primary">
+            <div className="mb-4 flex items-center justify-between gap-3">
+              <h3 className="font-mono text-xs font-semibold uppercase tracking-[0.2em] text-primary">
                 {category}
               </h3>
-              <span className="rounded-full border border-border px-2.5 py-0.5 font-mono text-xs text-muted">
+              <span className="rounded-full border border-border bg-background/30 px-2 py-0.5 font-mono text-[10px] text-muted">
                 {String(items.length).padStart(2, "0")}
               </span>
             </div>
-            <ul className="grid gap-2.5">
+
+            <ul className="flex flex-wrap gap-2">
               {items.map((skill) => {
                 const Icon = resolveIcon(skill.icon);
                 return (
                   <li
                     key={skill.name}
-                    className="group flex items-center gap-3 rounded-xl border border-transparent px-2 py-1.5 transition hover:border-border hover:bg-background/40"
+                    className="group inline-flex items-center gap-2 rounded-full border border-border/70 bg-surface/50 px-2.5 py-1.5 transition hover:border-primary/70 hover:bg-primary/5"
                   >
-                    <span className="icon-tile size-9 transition group-hover:scale-110 group-hover:shadow-[0_0_18px_-4px_var(--color-primary)]">
-                      <Icon aria-hidden="true" className="size-4" />
+                    <span className="icon-tile size-7 shrink-0 rounded-md transition group-hover:scale-105 group-hover:shadow-[0_0_16px_-4px_var(--color-primary)]">
+                      <Icon aria-hidden="true" className="size-3.5" />
                     </span>
-                    <span className="font-medium text-text">{skill.name}</span>
+                    <span className="text-sm font-medium text-text">{skill.name}</span>
                   </li>
                 );
               })}

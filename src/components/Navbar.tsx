@@ -5,6 +5,7 @@ import { Download, Menu, X } from "lucide-react";
 import type { NavItem } from "@/types/portfolio";
 import { cn } from "@/lib/utils";
 import { isUsableLink } from "@/lib/portfolio";
+import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 
 interface NavbarProps {
   shortName: string;
@@ -109,6 +110,7 @@ export function Navbar({
         </ul>
 
         <div className="flex items-center gap-3">
+          <ThemeSwitcher />
           {showResume ? (
             <a href={resumeUrl} download className="btn btn-ghost hidden min-h-10 px-4 py-2 text-sm sm:inline-flex">
               <Download aria-hidden="true" className="size-4" />

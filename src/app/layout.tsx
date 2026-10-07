@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { JetBrains_Mono, Space_Grotesk } from "next/font/google";
-import { siteConfig, themeConfig, themeToCss } from "@/config/siteConfig";
+import { defaultThemePreset, siteConfig, themeConfig, themeToCss, themePresets } from "@/config/siteConfig";
 import { getProfile } from "@/lib/portfolio";
 import { RevealObserver } from "@/components/RevealObserver";
 import "./globals.css";
@@ -51,6 +51,22 @@ export const viewport: Viewport = {
   colorScheme: "dark",
 };
 
+const themeInitializer = `
+  (function() {
+    const presets = ${JSON.stringify(themePresets)};
+    const key = 'portfolio-theme';
+    const saved = localStorage.getItem(key);
+    const themeKey = saved && presets[saved] ? saved : '${defaultThemePreset}';
+    const root = document.documentElement;
+    const theme = presets[themeKey];
+    Object.entries(theme).forEach(([token, value]) => {
+      root.style.setProperty('--color-' + token, value);
+    });
+    root.dataset.theme = themeKey;
+    root.style.colorScheme = ['ice', 'light'].includes(themeKey) ? 'light' : 'dark';
+  })();
+`;
+
 /** Marks JS as available before first paint so scroll-reveal never hides content for no-JS users. */
 const enableJsClass = "document.documentElement.classList.add('js')";
 
@@ -60,6 +76,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <head>
         {/* Theme colours from .env.local → CSS variables (values are validated in siteConfig). */}
         <style id="theme-variables" dangerouslySetInnerHTML={{ __html: themeToCss() }} />
+        <script dangerouslySetInnerHTML={{ __html: themeInitializer }} />
         <script dangerouslySetInnerHTML={{ __html: enableJsClass }} />
       </head>
       <body className="min-h-svh">
